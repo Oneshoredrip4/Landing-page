@@ -1,0 +1,17 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+    border: 1px solid red;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.header{
+    background-color: #1f2937;
+}
