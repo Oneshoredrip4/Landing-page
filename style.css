@@ -39,6 +39,7 @@ ul, li, a{
 .header{
     background-color: #1f2937;
     color: #f9faf8;
+    height: 400px;
 }
 
 .top-header{
@@ -56,6 +57,7 @@ ul, li, a{
 
 .left-container{
     width: 50%;
+    margin-right: 10px;
 }
 
 .left-container
@@ -64,16 +66,18 @@ button{
     color: #f9faf8;
     padding: 5px 25px;
     border-radius: 5px;
+    
 }
 .right-container{
     width: 50%;
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-self: flex-end;
 }
-/* need to fix that img shrinks evenly to the left container*/
+
 .right-container img{
-    height: 217px;
-    width: 457px;
+    height:208px;
+    width:100%;
 }
 
 .links{
