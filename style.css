@@ -35,7 +35,7 @@ ul, li, a{
     font-size: 18px;
     color: #E5E7EB;
 }
-
+/*header --> needs a fix for content wrapping outside of the header*/ 
 .header{
     background-color: #1f2937;
     color: #f9faf8;
@@ -87,4 +87,28 @@ button{
 .links{
     display: flex;
     align-items: center;
+}
+
+/*article 2*/
+.quote-container{
+    background-color: #e5e7eb;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote{
+    color: #1f2937;
+    width: fit-content;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+}
+
+.name{
+    align-self: flex-end;
+    font-size: 36px;
 }
