@@ -4,7 +4,6 @@ html{
 
 *, *::before, *::after{
     box-sizing: inherit;
-   
 }
 
 body{
@@ -137,6 +136,40 @@ button{
 
 .name{
     align-self: flex-end;
+}
+
+/*article 3 still need to get the margin of h2 and p to center te text*/
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    color: #f9faf8;
+}
+
+.blue-box{
+    background-color: #3882f6;
+    border-radius: 15px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.blue-box-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-box button{
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    font-weight: 700;
+    padding: 5px 20px;
+    border-radius: 5px;
 }
 
 /*footer*/
