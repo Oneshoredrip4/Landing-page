@@ -4,7 +4,7 @@ html{
 
 *, *::before, *::after{
     box-sizing: inherit;
-   
+   border: 1px solid greenyellow;
 }
 
 body{
@@ -49,6 +49,11 @@ ul, li, a{
     margin: 0 100px;
 }
 
+.top-header img{
+    width: 150px;
+    height: 150px;
+}
+
 .bottom-header{
     display: flex;
     justify-content: space-between;
@@ -58,6 +63,7 @@ ul, li, a{
 .left-container{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 50%;
     margin-right: 10px;
 }
@@ -69,9 +75,8 @@ button{
     padding: 5px 25px;
     border-radius: 5px;
     width: 100px;
-    justify-content: flex-end;
-    
 }
+
 .right-container{
     width: 50%;
     display: flex;
@@ -81,13 +86,14 @@ button{
 
 .right-container img{
     height:209px;
-    width:100%;
+    width:80%;
 }
 
 .links{
     display: flex;
     align-items: center;
 }
+
 /*article 1*/
 
 .jpg-container{
@@ -95,10 +101,12 @@ button{
     flex-direction: column;
     align-items: center;
     height: 350px;
+    margin-top: 30px;
 }
 
 .title{
      color: #1f2937;
+     margin-bottom: 10px;
 }
 
 .paintings{
@@ -118,6 +126,7 @@ button{
 }
 
 /*article 2*/
+
 .quote-container{
     background-color: #e5e7eb;
     width: 100%;
@@ -178,6 +187,7 @@ button{
 }
 
 /*footer*/
+
 .footer{
     display: flex;
     justify-content: center;
