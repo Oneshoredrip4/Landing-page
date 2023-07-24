@@ -4,7 +4,6 @@ html{
 
 *, *::before, *::after{
     box-sizing: inherit;
-   border: 1px solid greenyellow;
 }
 
 body{
@@ -72,6 +71,7 @@ ul, li, a{
 button{
     background-color: #3882f6;
     color: #f9faf8;
+    border: 1px solid #1f2937;
     padding: 5px 25px;
     border-radius: 5px;
     width: 100px;
