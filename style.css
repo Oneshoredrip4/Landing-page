@@ -57,8 +57,7 @@ ul, li, a{
 .bottom-header{
     display: flex;
     justify-content: space-between;
-    margin: 5px 100px;
-    border: 1px solid red;
+    margin: 0 100px;
 }
 
 .left-container{
